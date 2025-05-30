@@ -6,7 +6,7 @@ jcportfolio is my personal portfolio web app built using the React library. It p
 <img src="https://cdn.j24char.dev/jcportfolio.jpg" alt="jcportfolio" />
 </center>
 
-Live demo here: <a href="https://jcportfolio.j24char.dev/" target="_blank">jcportfolio.j24char.dev</a>
+Live demo here: <a href="https://jcportfolio-rho.vercel.app/" target="_blank">jcportfolio-rho.vercel.app</a>
 
 -   [Features](#-features)
 -   [Getting started](#-getting-started)
