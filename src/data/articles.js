@@ -40,11 +40,7 @@ function article_1() {
 					<div className="paragraph">
 						More than just a gallery, a portfolio becomes a living artifact of your professional journey. It reflects your evolving curiosity and values. And perhaps most importantly—it invites others to see your growth and imagine what it would be like to work alongside you.
 					</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
+					
 				</div>
 			</React.Fragment>
 		),
