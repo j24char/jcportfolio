@@ -12,21 +12,34 @@ function article_1() {
 			"JC",
 		],
 		style: `
-				.article-content {
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-				}
-
-				.randImage {
-					align-self: center;
-					outline: 2px solid red;
-				}
-				`,
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 20px;
+				line-height: 1.6;
+			}
+			.randImage {
+				align-self: center;
+				outline: 2px solid red;
+				margin-top: 20px;
+			}
+		`,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
+					<div className="paragraph">
+						In today’s digital-first world, the traditional resume is losing ground to a more dynamic, authentic tool: the project portfolio. A well-maintained portfolio gives potential collaborators, employers, or clients direct insight into your capabilities—what you’ve built, how you solve problems, and how your thinking has evolved over time.
+					</div>
+					<div className="paragraph">
+						Unlike resumes, which compress accomplishments into one-page summaries, portfolios allow for context. They let you demonstrate ownership over a problem, the steps you took to address it, and the outcome—whether successful or not. This transparency fosters trust and provides depth that static documents simply cannot offer.
+					</div>
+					<div className="paragraph">
+						For engineers, designers, and product thinkers, showcasing real work is the best proof of skill. Portfolios make visible the otherwise intangible qualities: adaptability, learning agility, and execution under constraints. They also allow your voice to shine through via documentation, commit messages, design notes, and even retrospectives.
+					</div>
+					<div className="paragraph">
+						More than just a gallery, a portfolio becomes a living artifact of your professional journey. It reflects your evolving curiosity and values. And perhaps most importantly—it invites others to see your growth and imagine what it would be like to work alongside you.
+					</div>
 					<img
 						src="https://picsum.photos/200/300"
 						alt="random"
@@ -44,7 +57,12 @@ function article_2() {
 		title: "Artificial Intelligence in Coding",
 		description:
 			"AI is transforming software development, from improving test outcomes to streamlining development. Discover the latest capabilities enabled by this game-changing technology.",
-		style: ``,
+		style: `
+			.article-content {
+				padding: 20px;
+				line-height: 1.6;
+			}
+		`,
 		keywords: [
 			"Artificial Intelligence in Coding",
 			"J24Char",
@@ -52,7 +70,23 @@ function article_2() {
 		],
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<div className="article-content">
+					<p>
+						Artificial Intelligence has rapidly progressed from a theoretical field of study to a hands-on tool used daily by developers around the globe. Tools like GitHub Copilot, ChatGPT, and Amazon CodeWhisperer have made AI pair programming not just possible—but highly effective.
+					</p>
+					<p>
+						AI can now assist with boilerplate code generation, writing tests, identifying bugs, and even designing efficient architectures. It acts as a tireless co-pilot, catching errors in logic or suggesting optimizations, helping developers maintain focus on the bigger picture.
+					</p>
+					<p>
+						But AI’s impact goes beyond the editor. It’s reshaping how we think about software development. Junior developers can accelerate their learning curve by asking natural language questions. Mid-level developers can automate tedious tasks, and senior engineers can prototype features faster while offloading repetitive chores.
+					</p>
+					<p>
+						Of course, AI isn't a replacement for deep understanding. It lacks context, business insight, and creativity—things only humans can bring. But used wisely, it's an amplifier. The future of coding isn't man vs machine—it's man with machine.
+					</p>
+					<p>
+						As AI models continue to evolve, we’ll likely see even greater integration into version control systems, CI/CD pipelines, and design tools. What remains critical is for developers to stay curious, skeptical, and strategic—harnessing AI not as a crutch, but as a springboard for better, faster, more thoughtful development.
+					</p>
+				</div>
 			</React.Fragment>
 		),
 	};
