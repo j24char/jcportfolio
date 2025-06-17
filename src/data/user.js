@@ -34,7 +34,7 @@ const INFO = {
 			title: "InModeration App",
 			description:
 				"My InModeration App was developed to help build a better understanding of the effects of alcohol consumption over time.  The app works as a graphic drink tracker that builds in a burn-down chart of how the liver processes alcohol over time and how repeated use of alcohol makes it more difficult for the body to cleanse itself.",
-			logo: "https://github.com/j24char/InModerationApp/blob/master/assets/images/InModerationNoBkgd.png",
+			logo: "../../InModerationNoBkgd.png",
 			linkText: "View Project",
 			link: "https://github.com/j24char/InModerationApp/tree/master",
 		},
@@ -43,7 +43,7 @@ const INFO = {
 			title: "lineup-creator",
 			description:
 				"This app was developed to automatically and fairly allocate player positions for youth baseball to ensure every kid on my baseball team had equal playing time.  It utilizes desired positions and a selected pitcher to determine where the other players will play and when they will sit out.",
-			logo: "https://github.com/j24char/lineup-creator/blob/master/assets/LineupGeneratorLogo.png",
+			logo: "../../LineupGeneratorLogo.png",
 			linkText: "View Project",
 			link: "https://github.com/j24char/lineup-creator",
 		},
@@ -52,7 +52,7 @@ const INFO = {
 			title: "portfolio",
 			description:
 				"This is the javascript based portfolio site you are looking at.",
-			logo: "https://github.com/j24char/jcportfolio/blob/main/public/Colorful.png",
+			logo: "../../Colorful.png",
 			linkText: "View Project",
 			link: "https://github.com/j24char/jcportfolio",
 		},
