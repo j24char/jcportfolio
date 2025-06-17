@@ -1,18 +1,14 @@
 const INFO = {
 	main: {
 		title: "jcportfolio",
-		name: "JC",
+		name: "Justin",
 		email: "j24char@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/j24char",
+		linkedin: "https://linkedin.com/in/justin-alan-charron",
 	},
 
 	homepage: {
@@ -22,7 +18,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m JC. I live in the United States, where I look for ways to solve problems.",
+		title: "My name is Justin. I live in the United States, where I look for ways to solve problems.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Some of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
