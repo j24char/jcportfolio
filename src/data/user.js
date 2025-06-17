@@ -12,7 +12,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and embedded software engineer.",
+		title: "Mobile app developer and embedded software engineer.",
 		description:
 			"I'm an embedded software engineer with experience developing for ISO-26262 and DO-178C applications, with a side hobby of backend development and Node.js. I have experience in developing scalable, secure and reliable software using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
@@ -31,49 +31,32 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "InModeration App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"My InModeration App was developed to help build a better understanding of the effects of alcohol consumption over time.  The app works as a graphic drink tracker that builds in a burn-down chart of how the liver processes alcohol over time and how repeated use of alcohol makes it more difficult for the body to cleanse itself.",
+			logo: "https://github.com/j24char/InModerationApp/blob/master/assets/images/InModerationNoBkgd.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/j24char/InModerationApp/tree/master",
 		},
 
 		{
-			title: "Project 2",
+			title: "lineup-creator",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"This app was developed to automatically and fairly allocate player positions for youth baseball to ensure every kid on my baseball team had equal playing time.  It utilizes desired positions and a selected pitcher to determine where the other players will play and when they will sit out.",
+			logo: "https://github.com/j24char/lineup-creator/blob/master/assets/LineupGeneratorLogo.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/j24char/lineup-creator",
 		},
 
 		{
-			title: "Project 3",
+			title: "portfolio",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"This is the javascript based portfolio site you are looking at.",
+			logo: "https://github.com/j24char/jcportfolio/blob/main/public/Colorful.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/j24char/jcportfolio",
 		},
 
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
 	],
 };
 
