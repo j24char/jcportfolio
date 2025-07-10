@@ -4,13 +4,13 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Article from "../components/articles/article";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/articles.css";
+import "./styles/homepage.css";
 
 const Articles = () => {
 	useEffect(() => {
@@ -48,6 +48,7 @@ const Articles = () => {
 							{INFO.articles.description}
 						</div>
 
+						{/* <div className="articles-container"> */}
 						<div className="articles-container">
 							<div className="articles-wrapper">
 								{myArticles.map((article, index) => (
@@ -55,13 +56,10 @@ const Articles = () => {
 										className="articles-article"
 										key={(index + 1).toString()}
 									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
+										<p className="homepage-article-date">{article().date}</p>
+										<a href={article().link} target="_blank" rel="noopener noreferrer">
+											<img className="articles-image" src={article().imageSrc}/>
+										</a>
 									</div>
 								))}
 							</div>

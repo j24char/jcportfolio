@@ -24,9 +24,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "I'm excited to explore what's possible and learn about new technologies.",
+		title: "Substack: The Daily Reframe",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"A personal Substack focused on reframing your mindset when dealing with unexpected changes in work, life, finances, and relationships.",
 	},
 
 	projects: [

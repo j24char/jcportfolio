@@ -7,7 +7,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "./styles/article.css";
 
 const Article = (props) => {
-	const { title, description, date, link } = props;
+	const { date, title, ImgSource, link } = props;
 
 	return (
 		<React.Fragment>
@@ -17,9 +17,7 @@ const Article = (props) => {
 						|&nbsp;&nbsp;&nbsp;{date}
 					</div>
 					<div className="homepage-article-title">{title}</div>
-					<div className="homepage-article-description">
-						{description}
-					</div>
+					<img className="homepage-article-image" src={ImgSource} alt={title} />
 					<div className="homepage-article-link">
 						<Link to={link}>
 							Read article{" "}
