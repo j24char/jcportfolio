@@ -40,6 +40,15 @@ const INFO = {
 		},
 
 		{
+			title: "SensorAnalyzer",
+			description:
+				"This project was developed to detect issues in sensor data and visualize the data on a chart using Chart.js.  It performs a sanity check on the data that is uploaded, and informs of any detected errors via a debug console. This project will continue to be updated with the intent of incorporating more diagnostics.",
+			logo: "../../HomePageScreenshot.png",
+			linkText: "View Project",
+			link: "https://github.com/j24char/SensorAnalyzer",
+		},
+
+		{
 			title: "lineup-creator",
 			description:
 				"This app was developed to automatically and fairly allocate player positions for youth baseball to ensure every kid on my baseball team had equal playing time.  It utilizes desired positions and a selected pitcher to determine where the other players will play and when they will sit out.",
