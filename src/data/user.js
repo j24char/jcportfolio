@@ -54,7 +54,7 @@ const INFO = {
 				"This project was developed to detect issues in sensor data and visualize the data on a chart using Chart.js.  It performs a sanity check on the data that is uploaded, and informs of any detected errors via a debug console. This project will continue to be updated with the intent of incorporating more diagnostics.",
 			logo: "../../HomePageScreenshot.png",
 			linkText: "View Project",
-			link: "https://github.com/j24char/SensorAnalyzer",
+			link: "https://sensor-analyzer.vercel.app/",
 		},
 
 		{
