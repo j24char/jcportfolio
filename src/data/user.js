@@ -31,6 +31,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Pilelle",
+			description:
+				"My Pilelle App was developed to help me keep track of foods/medicines I have taken that had adverse effects with other foods/medicines. This app uses email credentials to create an account and save the last 10 interactions saved after querying the NIH database for adverse effects. I built this after having stomach pain from drinking almond milk after taking Advil.",
+			logo: "../../Pilelle.png",
+			linkText: "View Project",
+			link: "https://pilelle.vercel.app/",
+		},
+
+		{
 			title: "InModeration App",
 			description:
 				"My InModeration App was developed to help build a better understanding of the effects of alcohol consumption over time.  The app works as a graphic drink tracker that builds in a burn-down chart of how the liver processes alcohol over time and how repeated use of alcohol makes it more difficult for the body to cleanse itself.",
