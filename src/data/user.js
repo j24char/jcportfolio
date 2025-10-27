@@ -31,6 +31,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "LegendTimer",
+			description:
+				"This simple timer app was developed to have something clean and simple to display during workouts. This app has a feature to set a rolling timer of various intervals to keep a workout moving forward. It is designed to be simple enough to navigate on FireTV OS. I built this due to losing track of time during workouts.",
+			logo: "../../LegendTimer.png",
+			linkText: "View Project",
+			link: "https://legendtimer-yl89.vercel.app/",
+		},
+
+		{
 			title: "Pilelle",
 			description:
 				"My Pilelle App was developed to help me keep track of foods/medicines I have taken that had adverse effects with other foods/medicines. This app uses email credentials to create an account and save the last 10 interactions saved after querying the NIH database for adverse effects. I built this after having stomach pain from drinking almond milk after taking Advil.",
