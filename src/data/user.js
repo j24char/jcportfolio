@@ -54,7 +54,7 @@ const INFO = {
 				"My InModeration App was developed to help build a better understanding of the effects of alcohol consumption over time.  The app works as a graphic drink tracker that builds in a burn-down chart of how the liver processes alcohol over time and how repeated use of alcohol makes it more difficult for the body to cleanse itself.",
 			logo: "../../InModerationNoBkgd.png",
 			linkText: "View Project",
-			link: "https://github.com/j24char/InModerationApp/tree/master",
+			link: "https://inmoderation.vercel.app/",
 		},
 
 		{
