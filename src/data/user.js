@@ -14,7 +14,7 @@ const INFO = {
 	homepage: {
 		title: "Mobile app developer and embedded software engineer.",
 		description:
-			"I'm an embedded software engineer with experience developing for ISO-26262 and DO-178C applications, with a side hobby of backend development and Node.js. I have experience in developing scalable, secure and reliable software using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I'm an embedded software engineer with experience developing for ISO-26262 and DO-178C applications, with a side hobby of full-stack development and Node.js. I have experience in developing scalable, secure and reliable software using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
@@ -31,12 +31,21 @@ const INFO = {
 
 	projects: [
 		{
+			title: "The Hawks Shed",
+			description:
+				"This web app was developed to manage scheduling the batting cage aka \"the shed\" for our local youth baseball team. This app has the ability to create a profile, submit a liability waiver for use of the facility, and assignment of timeslots. I built this to avoid scheduling conflicts for players.",
+			logo: "../../Hawk.png",
+			linkText: "View Project",
+			link: "https://theshed-nine.vercel.app/",
+		},
+
+		{
 			title: "LegendTimer",
 			description:
 				"This simple timer app was developed to have something clean and simple to display during workouts. This app has a feature to set a rolling timer of various intervals to keep a workout moving forward. It is designed to be simple enough to navigate on FireTV OS. I built this due to losing track of time during workouts.",
 			logo: "../../LegendTimer.png",
 			linkText: "View Project",
-			link: "https://legendtimer-yl89.vercel.app/",
+			link: "https://github.com/j24char/legendtimer",
 		},
 
 		{
@@ -45,7 +54,7 @@ const INFO = {
 				"My Pilelle App was developed to help me keep track of foods/medicines I have taken that had adverse effects with other foods/medicines. This app uses email credentials to create an account and save the last 10 interactions saved after querying the NIH database for adverse effects. I built this after having stomach pain from drinking almond milk after taking Advil.",
 			logo: "../../Pilelle.png",
 			linkText: "View Project",
-			link: "https://pilelle.vercel.app/",
+			link: "https://github.com/j24char/pilelle",
 		},
 
 		{
@@ -63,7 +72,7 @@ const INFO = {
 				"This project was developed to detect issues in sensor data and visualize the data on a chart using Chart.js.  It performs a sanity check on the data that is uploaded, and informs of any detected errors via a debug console. This project will continue to be updated with the intent of incorporating more diagnostics.",
 			logo: "../../HomePageScreenshot.png",
 			linkText: "View Project",
-			link: "https://sensor-analyzer.vercel.app/",
+			link: "https://github.com/j24char/SensorAnalyzer",
 		},
 
 		{
