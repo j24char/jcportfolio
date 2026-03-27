@@ -58,7 +58,7 @@ const Articles = () => {
 									>
 										<p className="homepage-article-date">{article().date}</p>
 										<a href={article().link} target="_blank" rel="noopener noreferrer">
-											<img className="articles-image" alt="Article Image" src={article().imageSrc}/>
+											<img className="articles-image" alt="" src={article().imageSrc}/>
 										</a>
 									</div>
 								))}
