@@ -31,6 +31,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Clearview Window Washing Company",
+			description:
+				"This web app was developed for a friend's son who started washing windows to earn money. This app has the ability to create a profile, book a service, and send a payment. I built this to interface with Firebase/Firestore after hitting my Supabase limit.",
+			logo: "../../Clearview.png",
+			linkText: "View Project",
+			link: "https://clearview-ashen.vercel.app/",
+		},
+
+		{
 			title: "The Hawks Shed",
 			description:
 				"This web app was developed to manage scheduling the batting cage aka \"the shed\" for our local youth baseball team. This app has the ability to create a profile, submit a liability waiver for use of the facility, and assignment of timeslots. I built this to avoid scheduling conflicts for players.",
