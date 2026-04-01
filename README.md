@@ -18,22 +18,22 @@ Live demo here: <a href="https://jcportfolio-rho.vercel.app/" target="_blank">jc
 -   [FAQ](#-faq)
 -   [Contribution](#-contribution)
 
-## 📙 Features
+## Features
 
--   📖 Multi-Page Layout
+-   Multi-Page Layout
     -   Home
     -   About
     -   Projects
     -   Articles
     -   Contact
--   📱 Fully Responsive
--   🛠 Easy configurations
+-   Fully Responsive
+-   Easy configurations
 
-## 📚 Getting started
+## Getting started
 
 Clone down this repository. You will need `NodeJS` and `git` installed globally on your machine.
 
-## 🛠 Installation and Setup Instructions
+## Installation and Setup Instructions
 
 1. Installation: `npm install`
 
@@ -43,7 +43,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
-## 📁 Folder structure
+## Folder structure
 
 -   `/public`: publicly accessible contents (ex: images, media).
 -   `/src`: all the components used in this project.
@@ -51,7 +51,7 @@ The page will reload if you make edits.
     -   `/src/data`: configurations of the web app.
     -   `/src/pages`: pages that include in the web app.
 
-## ⚙️ Configurations
+## Configurations
 
 Since this is a public and open source project, you can make any changes to it. The configurable data has been extracted into a single directory, to easily edit the files in that directory to configure the entire web application.
 
@@ -160,7 +160,7 @@ Directory: `/src/data/`
     }
     ```
 
-## 📈 Google Analytics
+## Google Analytics
 
 Add your Google Analytics 4 MEASUREMENT ID to `/src/data/tracking.js`.
 
@@ -168,7 +168,7 @@ How to find the Google Analytics 4 MEASUREMENT ID ?
 
 [https://support.google.com/analytics/answer/9539598?hl=en](https://support.google.com/analytics/answer/9539598?hl=en)
 
-## 🚀 Building the React App
+## Building the React App
 
 To build the React app, you can use the `npm run build` command. This will create a production-ready build of your app in the `build/` directory.
 
@@ -186,7 +186,7 @@ Here are the steps to follow:
 
 That's it! Your React portfolio app should now be up and running on your server. Note that you may need to configure your server's web server (e.g., Apache or Nginx) to serve the index.html file in the build/ directory as the default page for your domain.
 
-## 🤔 FAQ
+## FAQ
 
 **Q1. Subpages can only be accessed through links on the homepage or navigation bar, but those pages are not accessible through direct links.**
 
